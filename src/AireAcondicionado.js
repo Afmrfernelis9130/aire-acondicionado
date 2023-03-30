@@ -22,14 +22,14 @@ const orden = document.getElementById("orden");
 
 
 
-async function verDatos() {
-    const sql2 = 'SELECT * FROM aire.formulario';
-
-    const res = await conexion.query(sql2)
-    console.log(res.rows) // Hello world!
-    await conexion.end()
-
-}
+// async function verDatos() {
+//     const sql2 = 'SELECT * FROM aire.formulario';
+//
+//     const res = await conexion.query(sql2)
+//     console.log(res.rows) // Hello world!
+//     await conexion.end()
+//
+// }
 
 
 
